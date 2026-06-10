@@ -30,11 +30,6 @@ source_books:
     priority: 3
     path: "/Users/huoli4844/Desktop/电磁兼容/处理后/电磁兼容概论_柯金良/优先级3-电磁兼容概论-柯金良.md"
 
-# --- 知识库路径 ---
-knowledge_base:
-  raw_dir: "/Users/huoli4844/Desktop/电磁兼容知识库/raw/"
-  domain_dir: "/Users/huoli4844/Desktop/电磁兼容知识库/电磁兼容领域/"
-
 # --- 写作风格规范（Agent顶层指导） ---
 # 这是全书通用的写作哲学和质量标准，各章具体内容在写作大纲中定义。
 # Agent 启动时加载此配置作为写作行为的根本约束。
