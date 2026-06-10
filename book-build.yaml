@@ -1,0 +1,36 @@
+# =============================================================================
+# book-build 项目配置
+# =============================================================================
+
+# --- 教材信息 ---
+textbook:
+  name: "电磁兼容教材"
+  outline_file: "教材提纲.docx"
+
+# --- 参考教材配置 ---
+# 按 priority 排序，数字越小优先级越高
+source_books:
+  - display_name: "工程电磁兼容（第3版）"
+    author: "路宏敏"
+    priority: 1
+    path: "/Users/huoli4844/Desktop/电磁兼容/处理后/工程电磁兼容第3版_路宏敏/优先级1-十二五规划教材_工程电磁兼容第3版_路宏敏.md"
+
+  - display_name: "电磁兼容EMC技术及应用实例详解"
+    author: "张亮"
+    priority: 2
+    path: "/Users/huoli4844/Desktop/电磁兼容/处理后/电磁兼容EMC技术及应用实例详解_张亮/优先级2-电磁兼容EMC技术及应用实例详解-张亮.md"
+
+  - display_name: "电磁兼容原理、技术及应用（第2版）"
+    author: "梁振光"
+    priority: 4
+    path: "/Users/huoli4844/Desktop/电磁兼容/处理后/电磁兼容原理技术及应用第2版_梁振光/优先级4-十三五_电磁兼容原理技术及应用第2版_梁振光.md"
+
+  - display_name: "电磁兼容概论"
+    author: "柯金良"
+    priority: 3
+    path: "/Users/huoli4844/Desktop/电磁兼容/处理后/电磁兼容概论_柯金良/优先级3-电磁兼容概论-柯金良.md"
+
+# --- 知识库路径 ---
+knowledge_base:
+  raw_dir: "/Users/huoli4844/Desktop/电磁兼容知识库/raw/"
+  domain_dir: "/Users/huoli4844/Desktop/电磁兼容知识库/电磁兼容领域/"

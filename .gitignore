@@ -1,0 +1,23 @@
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# Hermes temp files
+.hermes-tmp.*
+
+# Backup files
+*.bak
+*.bak2
+*.orig
+
+# Session-specific helper scripts (not part of content)
+output/fix_*.py
+
+# Archives (writing guides already expanded)
+output/写作大纲-v1.zip
+
+# IDE config (optional, keep .obsidian if you want workspace)
+# .obsidian/
