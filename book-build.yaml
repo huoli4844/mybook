@@ -34,3 +34,38 @@ source_books:
 knowledge_base:
   raw_dir: "/Users/huoli4844/Desktop/电磁兼容知识库/raw/"
   domain_dir: "/Users/huoli4844/Desktop/电磁兼容知识库/电磁兼容领域/"
+
+# --- 写作风格规范（Agent顶层指导） ---
+# 这是教材写作的通用风格约束，各章的详细内容安排在写作大纲中定义
+writing_style:
+  # 基调
+  narrative: "第三人称客观学术叙述，不使用'你'、'我们'等第二人称"
+  paragraph_flow: "段落长度自然波动（10-600字），避免模板化句式"
+
+  # 学术要素（每条10字概览）
+  academic_elements:
+    - "权威定义：每个专业术语首次出现时给出严格定义"
+    - "直观引入：关键概念前有生活化或工程化引入"
+    - "编号公式：核心公式用 \\tag{章-序号} 编号，带式中变量解释"
+    - "实例验证：公式后有含具体数值的计算实例"
+    - "对比明辨：易混概念用表格对比（如EMD vs EMI）"
+
+  # 公式推导标准
+  derivation: "核心公式按'物理原理→建模假设→数学代入→导出结果→参数解释'五步推导，非核心公式直接给出"
+
+  # 案例铁律
+  case: "必须来自公开报道真实事件，含公司名/时间/参数值，禁止从参考教材摘抄"
+
+  # 图表
+  figure:
+    mermaid: "所有结构图/流程图用Mermaid实现"
+    caption: "图注用斜体 *图章-序号：标题*"
+  table:
+    caption: "表题用粗体 **表章-序号：标题**"
+    format: "每表必含对齐标记（:--  :--:  --:）"
+
+  # 内容密度底线（低于此值需补充）
+  density_baseline:
+    formulas_per_chapter: 15
+    examples_per_chapter: 3
+    tables_per_chapter: 5
